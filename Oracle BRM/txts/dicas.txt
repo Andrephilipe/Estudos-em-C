@@ -1,0 +1,48 @@
+funçôes utilizadas em : malloc() e free();
+
+malloc: obtém memoria do sistema e retorna um ponteiro para o primeiro byte do bloco 
+de memoria.
+
+sintaxe: ponteiro = malloc();
+
+free() destroi a variavel explicitamente.
+
+realloc() ele 
+
+operador sizeof(); retorna o numero de bytes ocupados por um tipo de dados (struct)
+
+biclioteca <stdbool.h>
+
+struct é um containe de imformações 
+
+qual a diferença do sprintf e printf;
+ambos são para escrever na tela 
+scanf(); serve para leitura
+
+calloc() pesquisar o que faz 
+
+no BRM é utilizado o flist();
+função do brm 
+porém em c quando se quer retornar um valor em uma função 
+
+para todo malloc que você der tem que dar um free nos dados.
+
+sizeof(char); sizeof(int);
+
+essencial saber onde está a memoria principal sempres que utilizar um ponteiro
+
+macro é muito importante no brm 
+
+preciso entender mais a questão dos define
+macro são define de funções que são importadas pelos .h
+
+pesquisar também o fopen seus tipos de parametrose suas saidas
+
+structs é onde podemos criar tipos de dados;
+
+estudar flegs
+arquivos make estudar tambèm mas eu ainda estou na mesma merda de lei
+
+passara funÇões para o ponto h .h
+
+#include "aquivos.h";

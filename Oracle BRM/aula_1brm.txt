@@ -1,0 +1,26 @@
+Aulas BRM primeira 
+
+o brm tem 4 camadas
+
+camada de aplicação
+
+camada de gestão de conexão
+
+camada de gestão de dados
+
+camada de dados
+
+camada de aplicação: CUSTOMER CENTER
+A camada de aplicação é a camada respondsavel por fazer a integraçãp das
+aplicaç~es 'core' ou customizadas e o BRM.
+
+aplicação customizada
+aplicação customizada 
+aplicação cusyomizada -> cm -> brm
+
+camadas de dados
+
+aplicação do cliente -> cm ->
+
+-verboso
+-type

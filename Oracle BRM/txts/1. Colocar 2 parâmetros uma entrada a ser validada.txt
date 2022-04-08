@@ -1,0 +1,92 @@
+1. Colocar 2 parâmetros uma entrada a ser validada no seu executável
+
+	Validação tipo palavra-chave:
+
+    Executavel.exe -valida "Valor$%##"
+    
+    Sem o parâmetro -valida  não precisa validar
+    Executavel.exe 
+
+2. Transformar todos os códigos das opções do menu do programa que vocês estão fazendo 
+   
+	Funções usando passagem e formas de uso abaixo:
+
+	OBS: Tem função suficiente no seu código possívelmente maior parte já existe.
+
+	Suas funções dos seus menus vão existir de qualquer forma
+
+	Não precisa ser todas:
+
+
+	*As funções devem receber parâmetro com uso de *ponteiros ou &  quando chamas
+
+	0.void nomefuncao( tipo parametro2 );
+
+	1.<tipo de retorno exemplo> int nomefuncao( tipo parametro2 );
+
+	2.int nomefuncao(tipo *parametro1, tipo *parametro2 );
+
+	3.double nomefuncao(tipo *parametro1, tipo parametro2 );
+
+	4.void nomefuncao(tipo *parametro1, tipo **retorno,tipo parametro2 );
+
+	5.
+	//Essa função deve dizer que não foi possível validar a informação porque o parametro2 foi igual a 0
+	//Ajudinha um auxiliar que esta em 0 
+	bool nomefuncao(tipo *parametro1, tipo **retorno, tipo parametro2 );
+	Resultado = Escreva o valor da saída ou uma mensagem não foi possível validar 
+
+
+	6. A função de criar matriz deve retornar a matriz alocada com malloc 
+
+	Imprimir fora no terminal
+	dar um free().
+
+    7.Adicionar um novo item no menu com uma função que escreva hello word
+    *se possível o hello word pode  dar hello word com duas formas usando ponteiro para
+    função; 	
+   
+  
+3. Todas as funções devem estar .h e as implementações estarem um ponto c. 
+   
+   #include ??? .h
+   
+   //Aviso não usem subpastas isso podem complicar suas vidas
+   
+   exemplo ac_funcoes.h
+   "espero que funcione."
+   
+	=========================================================
+	   
+	 /**
+	 * @file 		ac_funcoes.h
+	 * @author 		nome.do.aluno
+	 * @date 		00-00-2021 00:00:00
+	 * @brief 		<descriçao>.
+	 */
+
+	#ifndef AC_FUNCOES_H
+	#define AC_FUNCOES_H
+
+		/*????
+		*/
+		void nomefuncao(paratreos);
+
+
+	#endif /AC_FUNCOES_H/
+
+	=========================================================
+ 
+ 
+ 4. Gravar tabela da tabuada em um arquivo txt
+    
+ 5. Criar um arquivo de log com todas operações dos menus usado e seus resultados
+	
+	Ex:
+	
+	24_05_21 : Menu cálculo : resultado
+	
+	nome_do_arquivo_210524110026.log
+	
+	ano mês dia hora minuto segundo	
+	21 05 24 11 00 26

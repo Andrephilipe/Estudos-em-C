@@ -1,0 +1,68 @@
+E Sat Jun  5 19:57:03 2021  brmdev  <no name>:4800  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(4800): no pin.conf file in . or /etc 2
+E Sat Jun  5 19:57:03 2021  brmdev  <no name>:4800  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(4800): no pin.conf file in . or /etc 2
+E Sat Jun  5 19:57:03 2021  brmdev  <no name>:4800  pin_deploy_pcm.c:302 2:<machine>:<program>:0:0:0:0:0::::
+	Unable to read userid from pin.conf
+E Sat Jun  5 19:57:03 2021  brmdev  <no name>:4800  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(4800): no pin.conf file in . or /etc 2
+E Sat Jun  5 19:57:03 2021  brmdev  <no name>:4800  pcm.c(64):448 2:<machine>:<program>:0:0:0:0:0::::
+	Bad context in pcm_op
+E Sat Jun  5 19:57:03 2021  brmdev  <no name>:4800  pin_deploy_pcm.c:101 2:<machine>:<program>:0:0:0:0:0::::
+	PCM error
+	<location=PIN_ERRLOC_PCM:1 class=PIN_ERRCLASS_SYSTEM_DETERMINATE:1 errno=PIN_ERR_BAD_ARG:4>
+	<field num=0:0,0 recid=0 reserved=0 reserved2=0 time(sec:usec)=0:0>
+	<facility=0 msg_id=0 version=0>
+E Sat Jun  5 19:57:03 2021  brmdev  <no name>:4800  pin_deploy_export.c:218 2:<machine>:<program>:0:0:0:0:0::::
+	ERROR attempting to read fields from DD
+E Sat Jun  5 20:08:02 2021  brmdev  <no name>:5440  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(5440): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:08:02 2021  brmdev  <no name>:5440  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(5440): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:08:02 2021  brmdev  <no name>:5440  pin_deploy_pcm.c:302 2:<machine>:<program>:0:0:0:0:0::::
+	Unable to read userid from pin.conf
+E Sat Jun  5 20:08:02 2021  brmdev  <no name>:5440  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(5440): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:08:02 2021  brmdev  <no name>:5440  pcm.c(64):448 2:<machine>:<program>:0:0:0:0:0::::
+	Bad context in pcm_op
+E Sat Jun  5 20:08:03 2021  brmdev  <no name>:5440  pin_deploy_pcm.c:101 2:<machine>:<program>:0:0:0:0:0::::
+	PCM error
+	<location=PIN_ERRLOC_PCM:1 class=PIN_ERRCLASS_SYSTEM_DETERMINATE:1 errno=PIN_ERR_BAD_ARG:4>
+	<field num=0:0,0 recid=0 reserved=0 reserved2=0 time(sec:usec)=0:0>
+	<facility=0 msg_id=0 version=0>
+E Sat Jun  5 20:08:03 2021  brmdev  <no name>:5440  pin_deploy_export.c:218 2:<machine>:<program>:0:0:0:0:0::::
+	ERROR attempting to read fields from DD
+E Sat Jun  5 20:16:57 2021  brmdev  <no name>:5948  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(5948): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:16:57 2021  brmdev  <no name>:5948  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(5948): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:16:57 2021  brmdev  <no name>:5948  pin_deploy_pcm.c:302 2:<machine>:<program>:0:0:0:0:0::::
+	Unable to read userid from pin.conf
+E Sat Jun  5 20:16:57 2021  brmdev  <no name>:5948  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(5948): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:16:57 2021  brmdev  <no name>:5948  pcm.c(64):448 2:<machine>:<program>:0:0:0:0:0::::
+	Bad context in pcm_op
+E Sat Jun  5 20:16:57 2021  brmdev  <no name>:5948  pin_deploy_pcm.c:101 2:<machine>:<program>:0:0:0:0:0::::
+	PCM error
+	<location=PIN_ERRLOC_PCM:1 class=PIN_ERRCLASS_SYSTEM_DETERMINATE:1 errno=PIN_ERR_BAD_ARG:4>
+	<field num=0:0,0 recid=0 reserved=0 reserved2=0 time(sec:usec)=0:0>
+	<facility=0 msg_id=0 version=0>
+E Sat Jun  5 20:16:57 2021  brmdev  <no name>:5948  pin_deploy_export.c:218 2:<machine>:<program>:0:0:0:0:0::::
+	ERROR attempting to read fields from DD
+E Sat Jun  5 20:25:36 2021  brmdev  <no name>:6428  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(6428): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:25:36 2021  brmdev  <no name>:6428  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(6428): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:25:36 2021  brmdev  <no name>:6428  pin_deploy_pcm.c:302 2:<machine>:<program>:0:0:0:0:0::::
+	Unable to read userid from pin.conf
+E Sat Jun  5 20:25:36 2021  brmdev  <no name>:6428  pin_conf.c(40):535 2:<machine>:<program>:0:0:0:0:0::::
+	(6428): no pin.conf file in . or /etc 2
+E Sat Jun  5 20:25:36 2021  brmdev  <no name>:6428  pcm.c(64):448 2:<machine>:<program>:0:0:0:0:0::::
+	Bad context in pcm_op
+E Sat Jun  5 20:25:36 2021  brmdev  <no name>:6428  pin_deploy_pcm.c:101 2:<machine>:<program>:0:0:0:0:0::::
+	PCM error
+	<location=PIN_ERRLOC_PCM:1 class=PIN_ERRCLASS_SYSTEM_DETERMINATE:1 errno=PIN_ERR_BAD_ARG:4>
+	<field num=0:0,0 recid=0 reserved=0 reserved2=0 time(sec:usec)=0:0>
+	<facility=0 msg_id=0 version=0>
+E Sat Jun  5 20:25:36 2021  brmdev  <no name>:6428  pin_deploy_export.c:218 2:<machine>:<program>:0:0:0:0:0::::
+	ERROR attempting to read fields from DD

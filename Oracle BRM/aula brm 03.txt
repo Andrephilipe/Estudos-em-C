@@ -1,0 +1,46 @@
+Aula 3 BRM 
+FATURAMENTO
+
+BRM - retorno -> envio 
+
+Arquitetura de Arrecadação - Cartão de crédito e DACC
+
+chadback contestação de compra.
+json -- integração -- com o meio de pagamento ex: Braspag ou cielo
+
+
+Arrecadação retorno: Retorno remessa
+Arrecadação Envio: Remessa DACC
+
+VAN -> Bank
+
+estudar mais o conceito de remessas
+o BRM gera as remessas e envia para a VAN que é uma empresa que envia as remessas para o banco
+dois tipos de remessas 
+
+Arquitetura Arrecadação - Inapp
+
+App Store, Goocle Play e hocu -> confirma o pagamento que retorna as remessas e retorna para o BRM
+
+Billing day dia do faturamento
+
+Metodos de pagamentos
+
+par_create responsavel pela criação das remessas 
+deve ser executado por linha de comando
+$PIN_HOME/apps
+
+configurações ficam dentro do diretoria sys
+
+arquivos de logs ficam dentro do diretorio var
+
+remessa AC_PAR_T etatos de emitida
+
+historico de remessas AC_PAR_HISTORY_T
+
+ENVIO DE ARRECADAÇÃO AC
+_PAR_REMESSA_EMVIO_T
+retorno de arrecadação
+AC_PAR_RETORNO_T
+remmesa cartão de crédito
+AC_PAR_REMESSA_CREDIT_CARD

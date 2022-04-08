@@ -1,0 +1,13 @@
+Aula 02 BRM
+
+chave primaria poid_id0;
+INAPP uando faz a venda pelo google pelo mac ios e outros meios
+
+AC_BILLINFO_T
+BILLINFO_T MAIS IMPORTANTE É O DOM QUE indica o dia do faturamento
+
+BAL_GRP_T
+
+SERVICE_T
+
+billing care

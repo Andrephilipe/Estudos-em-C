@@ -1,0 +1,42 @@
+r << XXX 1
+0 PIN_FLD_POID POID [0] 0.0.0.1 /cliente -1 0
+0 PIN_FLD_ACCOUNT_OBJ  POID [0] 0.0.0.1/account 1 0
+0 PIN_FLD_NAME STR [0] "Andre Philipe"
+0 PIN_FLD_ADDRESS STR [0] "Rua qualquer coisa"
+XXX
+xop PCM_OP_CREATE_OBJ 0 1
+
+0 PIN_FLD_NAME STR [0] "Andre Philipe"
+alias
+sempre abrir um arquivo em io
+
+r << XXX 1
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /cliente 120050 0
+XXX
+xop PCM_OP_READ_OBJ 0 1
+
+
+robj - 
+
+
+comando para delet
+
+r << XXX 1
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /cliente 119026 0
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /cliente 121074 0
+XXX
+xop PCM_OP_DELETE_OBJ 0 1
+
+
+r << XXX 1
+0 PIN_FLD_POID           POID [0] 0.0.0.1 /search -1 0
+0 PIN_FLD_FLAGS           INT [0] 256
+0 PIN_FLD_TEMPLATE        STR [0] "select X from /atividade where F1 = V1"
+0 PIN_FLD_ARGS          ARRAY [1] allocated 20, used 1
+1     PIN_FLD_POID           POID [0] 0.0.0.1 /account 1 0
+0 PIN_FLD_RESULTS       ARRAY [0] allocated 20, used 4
+XXX
+xop PCM_OP_SEARCH 0 1
+
+
+fazer o create obj e fazer dois search
